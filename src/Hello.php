@@ -13,6 +13,6 @@ class Hello
 {
     public function say($toSay = "Nothing given")
     {
-        return $toSay;
+        return $toSay . " modified to test RC";
     }
 }
