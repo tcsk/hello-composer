@@ -13,6 +13,6 @@ class Hello
 {
     public function say($toSay = "Nothing given")
     {
-        return $toSay.' updated - 2';
+        return $toSay;
     }
 }
